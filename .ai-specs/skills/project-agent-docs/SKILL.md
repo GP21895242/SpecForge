@@ -40,14 +40,17 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 *   [`.ai-specs/steering/1_产品概述.md`](.ai-specs/steering/1_产品概述.md) - 项目愿景、核心模块、目标用户
 *   [`.ai-specs/steering/2_技术栈.md`](.ai-specs/steering/2_技术栈.md) - 技术选型和理由
 *   [`.ai-specs/steering/3_项目结构.md`](.ai-specs/steering/3_项目结构.md) - 目录结构和文件放置规则
-*   [`.ai-specs/steering/4_开发规范.md`](.ai-specs/steering/4_开发规范.md) - 代码风格和命名规范
+*43→*   [`.ai-specs/steering/4_开发规范.md`](.ai-specs/steering/4_开发规范.md) - 代码风格和命名规范
+44→*   [`.ai-specs/steering/5_UI设计规范.md`](.ai-specs/steering/5_UI设计规范.md) - 全局 UI 风格指南
 
 ## 工作流程 (Workflow)
 
 ### 功能开发（按顺序执行）
 1.  需求澄清 → [`.ai-specs/prompts/feature/1_需求澄清.md`](.ai-specs/prompts/feature/1_需求澄清.md)
-2.  技术方案 → [`.ai-specs/prompts/feature/2_技术方案.md`](.ai-specs/prompts/feature/2_技术方案.md)
-3.  任务规划 → [`.ai-specs/prompts/feature/3_任务规划.md`](.ai-specs/prompts/feature/3_任务规划.md)
+2.  UI 设计 → [`.ai-specs/prompts/feature/1.5_UI设计.md`](.ai-specs/prompts/feature/1.5_UI设计.md)
+3.  UI 实现 → [`.ai-specs/prompts/feature/1.6_UI实现.md`](.ai-specs/prompts/feature/1.6_UI实现.md)
+4.  技术方案 → [`.ai-specs/prompts/feature/2_技术方案.md`](.ai-specs/prompts/feature/2_技术方案.md)
+5.  任务规划 → [`.ai-specs/prompts/feature/3_任务规划.md`](.ai-specs/prompts/feature/3_任务规划.md)
 
 ### 项目初始化（仅在项目开始时）
 1.  需求挖掘 → [`.ai-specs/prompts/project/0_需求澄清.md`](.ai-specs/prompts/project/0_需求澄清.md)
@@ -55,8 +58,9 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 3.  技术栈 → [`.ai-specs/prompts/project/2_技术栈.md`](.ai-specs/prompts/project/2_技术栈.md)
 4.  项目结构 → [`.ai-specs/prompts/project/3_项目结构.md`](.ai-specs/prompts/project/3_项目结构.md)
 5.  开发规范 → [`.ai-specs/prompts/project/4_开发规范.md`](.ai-specs/prompts/project/4_开发规范.md)
-6.  初始化计划 → [`.ai-specs/prompts/project/6_初始化计划.md`](.ai-specs/prompts/project/6_初始化计划.md)
-7.  开发路线图 → [`.ai-specs/prompts/project/7_开发路线图.md`](.ai-specs/prompts/project/7_开发路线图.md)
+6.  UI 规范 → [`.ai-specs/prompts/project/5_UI设计规范.md`](.ai-specs/prompts/project/5_UI设计规范.md)
+7.  初始化计划 → [`.ai-specs/prompts/project/6_初始化计划.md`](.ai-specs/prompts/project/6_初始化计划.md)
+8.  开发路线图 → [`.ai-specs/prompts/project/7_开发路线图.md`](.ai-specs/prompts/project/7_开发路线图.md)
 
 ## 文档位置 (Document Locations)
 

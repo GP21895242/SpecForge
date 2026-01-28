@@ -46,9 +46,11 @@
 *   **产出**: `2_技术栈.md`, `3_项目结构.md`
 
 ### 阶段四：规范制定 (Standardization)
-*   **目标**: 统一“语言”。
-*   **如何触发**: 呼叫 `project-dev-standards`
-*   **产出**: `4_开发规范.md` (包含代码风格、Git 规范、AI 交互协议)
+*   **目标**: 统一“语言”和“颜值”。
+*   **如何触发**:
+    1.  呼叫 `project-dev-standards` -> 生成代码规范 (`4_开发规范.md`)。
+    2.  呼叫 `project-ui-style-guide` -> 生成 UI 规范 (`5_UI设计规范.md`)。
+*   **产出**: `4_开发规范.md`, `5_UI设计规范.md`
 
 ### 阶段五：初始化规划 (Initialization Planning)
 *   **目标**: 万事开头难？让 AI 帮你列清单。

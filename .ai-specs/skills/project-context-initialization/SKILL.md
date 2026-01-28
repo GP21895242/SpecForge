@@ -20,6 +20,7 @@ description: "存量项目接入。扫描现有代码库，逆向生成标准化
 ## 工作流程
 
 ### 1. 侦查与分析 (Reconnaissance)
+*   **产品文档**: 查找项目中可能包含的相关文档等。
 *   **产品背景**: 读取根目录的 `README.md` (如果存在)。
 *   **技术栈**: 读取依赖管理文件（如 `package.json`, `go.mod`, `requirements.txt`, `pom.xml`, `Cargo.toml`）。
 *   **项目结构**: 扫描根目录及 `src/` 下的一级子目录。

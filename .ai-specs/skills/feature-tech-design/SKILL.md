@@ -13,6 +13,7 @@ description: "设计功能的技术实现方案。在功能需求明确后使用
 
 ## 输入
 *   `docs/{功能名称}/1_需求文档.md` (功能需求文档)
+*   `docs/{功能名称}/1.5_UI设计.md` (UI设计方案，可选)
 *   现有的项目技术栈规则 (参考 `.ai-specs/steering/2_技术栈.md` 和 `.ai-specs/steering/3_项目结构.md`)
 
 ## 边界守卫 (Guardrails) - CRITICAL
