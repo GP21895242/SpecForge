@@ -18,10 +18,10 @@ description: "更新项目文档以匹配代码库的实际情况。当实现与
 1.  **分析上下文 (Analyze Context)**：
     *   阅读当前代码库，理解**实际**状态（技术栈、项目结构、关键功能）。
     *   阅读现有的文档文件：
-        *   `.ai-specs/prompts/project/1_产品概述.md` (产品概述)
-        *   `.ai-specs/prompts/project/2_技术栈.md` (技术栈)
-        *   `.ai-specs/prompts/project/3_项目结构.md` (项目结构)
-        *   `specs/*.md` (任何生效的规则)
+        *   `.ai-specs/steering/1_产品概述.md` (产品概述)
+        *   `.ai-specs/steering/2_技术栈.md` (技术栈)
+        *   `.ai-specs/steering/3_项目结构.md` (项目结构)
+        *   `.ai-specs/steering/*.md` (任何生效的规则)
 
 2.  **识别偏差 (Identify Deviations)**：
     *   对比**实际代码**与**文档规范**。

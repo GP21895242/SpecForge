@@ -52,4 +52,4 @@
 
 ---
 ## 3. 文档管理约定
-所有全局层文档统一存储于 `.trae/rules/` 目录下，作为项目最重要的全局上下文 (Global Context)。
+所有全局层文档统一存储于 `.ai-specs/steering/` 目录下，作为项目最重要的全局上下文 (Global Context)。
