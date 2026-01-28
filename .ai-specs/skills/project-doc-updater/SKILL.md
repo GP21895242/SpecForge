@@ -13,6 +13,10 @@ description: "更新项目文档以匹配代码库的实际情况。当实现与
 - 当你检测到代码实现（例如：技术栈、文件夹结构）与文档规范发生了偏差时。
 - 在完成重大功能实现后，如果该功能改变了项目结构或引入了新技术。
 
+## 边界守卫 (Guardrails) - CRITICAL
+请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+**当前阶段**: 规划与管理阶段 (Planning & Management)
+
 ## 工作流程
 
 1.  **分析上下文 (Analyze Context)**：

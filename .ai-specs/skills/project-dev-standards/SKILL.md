@@ -10,6 +10,10 @@ description: "制定代码规范和协作流程。在技术栈确定后使用，
 
 ## 你的任务
 基于已确定的技术栈 (`.ai-specs/steering/2_技术栈.md`)，制定具体的开发规范。**必须动态适配选定的技术**（不要生成 Python 规范给 Go 项目）。
+
+## 边界守卫 (Guardrails) - CRITICAL
+请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+**当前阶段**: 架构与设计阶段 (Architecture & Design)
  
  ## 工作流程
  1.  **读取上下文**：

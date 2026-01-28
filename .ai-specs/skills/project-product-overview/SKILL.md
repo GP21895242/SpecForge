@@ -10,6 +10,10 @@ description: "将需求转化为标准化的产品概述文档。在需求澄清
 ## 你的任务
 接收用户的碎片化描述、草图或愿景，将其转化为一份清晰、具有指导意义的项目启动文档。这份文档将作为后续技术选型和架构设计的基石。
 
+## 边界守卫 (Guardrails) - CRITICAL
+请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+**当前阶段**: 需求与分析阶段 (Requirements & Analysis)
+
 ## 工作流程
 1.  **前置检查 (Input Validation)**：
     *   检查用户是否提供了来自 `@0_需求澄清.md` 的 **[标准化项目描述]**。

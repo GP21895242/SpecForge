@@ -12,6 +12,10 @@ description: "记录和查阅 AI 错题本。当发生错误或需要预警时�
 1.  **记录 (Record)**：当用户明确指出错误，或你意识到自己犯了严重错误时，**主动询问用户**是否需要记录到错题本。
 2.  **检索 (Retrieve)**：在开始新任务前，主动检索相关错误历史，提前预警。
 
+## 边界守卫 (Guardrails) - CRITICAL
+请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+**当前阶段**: 需求与分析阶段 (Requirements & Analysis)
+
 ## 工作流程
 1.  **错误捕获**：
     *   当发生错误（如代码无法运行）且经过修复后，**向用户发起确认**：

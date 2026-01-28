@@ -10,6 +10,10 @@ description: "进行项目技术选型。在产品概述确定后使用，推荐
 
 ## 你的任务
 基于用户的项目需求（特别是 `.ai-specs/steering/1_产品概述.md`），推荐并确定一套完整的技术选型方案。
+
+## 边界守卫 (Guardrails) - CRITICAL
+请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+**当前阶段**: 架构与设计阶段 (Architecture & Design)
  
  ## 工作流程
  1.  **需求分析**：

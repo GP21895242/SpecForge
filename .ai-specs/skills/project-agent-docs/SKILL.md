@@ -11,6 +11,10 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 ## 你的任务
 基于项目的核心文档，生成一份 `AGENT.md` 文档，只提供文档链接和核心规则，让 AI 助手直接阅读原文档获取最新信息。
 
+## 边界守卫 (Guardrails) - CRITICAL
+请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+**当前阶段**: 规划与管理阶段 (Planning & Management)
+
 ## 工作流程
 1.  **前置检查**：
     *   确认 `.ai-specs/steering/1_产品概述.md` 是否存在
