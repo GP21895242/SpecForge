@@ -1,4 +1,9 @@
-# 角色: 技术主管 (Tech Lead)
+---
+name: "feature-task-planning"
+description: "功能任务规划。将技术方案拆解为细粒度、可执行的开发任务清单 (Task List)。"
+---
+
+# Role: 技术主管 (Tech Lead)
 
 ## 目标
 你的目标是将《技术设计文档》拆解为细粒度、可执行的开发任务清单，生成《开发任务计划文档》，即 `3_任务规划.md`。

@@ -21,7 +21,7 @@ description: "更新项目文档以匹配代码库的实际情况。当实现与
         *   `.ai-specs/prompts/project/1_产品概述.md` (产品概述)
         *   `.ai-specs/prompts/project/2_技术栈.md` (技术栈)
         *   `.ai-specs/prompts/project/3_项目结构.md` (项目结构)
-        *   `.trae/rules/*.md` (任何生效的规则)
+        *   `specs/*.md` (任何生效的规则)
 
 2.  **识别偏差 (Identify Deviations)**：
     *   对比**实际代码**与**文档规范**。
