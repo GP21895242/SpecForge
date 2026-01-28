@@ -55,6 +55,7 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 3.  技术栈 → [`.ai-specs/prompts/project/2_技术栈.md`](.ai-specs/prompts/project/2_技术栈.md)
 4.  项目结构 → [`.ai-specs/prompts/project/3_项目结构.md`](.ai-specs/prompts/project/3_项目结构.md)
 5.  开发规范 → [`.ai-specs/prompts/project/4_开发规范.md`](.ai-specs/prompts/project/4_开发规范.md)
+6.  初始化计划 → [`.ai-specs/prompts/project/6_初始化计划.md`](.ai-specs/prompts/project/6_初始化计划.md)
 
 ## 文档位置 (Document Locations)
 
