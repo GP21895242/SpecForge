@@ -7,7 +7,7 @@
 | 步骤 | 阶段 | 你的指令 (Trigger) | 产出文档 (在 `docs/{功能名}/`) |
 | :--- | :--- | :--- | :--- |
 | **01** | **需求澄清** | `feature-requirements-clarification` | `1_需求文档.md` |
-| **02** | **UI 原型** | `feature-ui-prototype` | `prototypes/*.html` |
+| **02** | **UI 原型** | `ui-prototype` | `prototypes/*.html` |
 | **03** | **技术方案** | `feature-tech-design` | `2_技术方案.md` |
 | **04** | **任务规划** | `feature-task-planning` | `3_任务规划.md` |
 | **05** | **编码实现** | (IDE 自动辅助) | (源代码) |

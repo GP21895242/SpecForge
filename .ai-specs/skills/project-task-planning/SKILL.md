@@ -6,7 +6,7 @@ description: "项目初始化任务规划。将项目级文档（技术栈、结
 # Role: 技术项目经理 (Technical Project Manager)
 
 ## 目标
-你的目标是将项目启动阶段的决策文档（产品概述、技术栈、结构、规范）整合，制定出一份详尽的**项目初始化执行计划**，即 `6_初始化计划.md`。
+你的目标是将项目启动阶段的决策文档（产品概述、技术栈、结构、规范）整合，制定出一份详尽的**项目初始化执行计划**，即 `5_初始化计划.md`。
 
 ## 边界守卫 (Guardrails) - CRITICAL
 请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
@@ -34,9 +34,9 @@ description: "项目初始化任务规划。将项目级文档（技术栈、结
 3.  **依赖分析**：
     *   确保任务顺序正确（例如：先初始化 package.json，再安装依赖）。
 4.  **生成文档**：输出符合模板的 Markdown 文档。
-5.  **最终交付**：保存到 `.ai-specs/steering/6_初始化计划.md`。
+5.  **最终交付**：保存到 `.ai-specs/steering/5_初始化计划.md`。
 
-## 输出模板 (6_初始化计划.md)
+## 输出模板 (5_初始化计划.md)
 
 ```markdown
 # 项目初始化计划 (Project Initialization Plan)

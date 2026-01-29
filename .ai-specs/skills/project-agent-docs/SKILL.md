@@ -41,7 +41,6 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 *   [`.ai-specs/steering/2_技术栈.md`](.ai-specs/steering/2_技术栈.md) - 技术选型和理由
 *   [`.ai-specs/steering/3_项目结构.md`](.ai-specs/steering/3_项目结构.md) - 目录结构和文件放置规则
 *43→*   [`.ai-specs/steering/4_开发规范.md`](.ai-specs/steering/4_开发规范.md) - 代码风格和命名规范
-44→*   [`.ai-specs/steering/5_UI设计规范.md`](.ai-specs/steering/5_UI设计规范.md) - 全局 UI 风格指南
 
 ## 工作流程 (Workflow)
 
@@ -57,9 +56,8 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 3.  技术栈 → [`.ai-specs/prompts/project/2_技术栈.md`](.ai-specs/prompts/project/2_技术栈.md)
 4.  项目结构 → [`.ai-specs/prompts/project/3_项目结构.md`](.ai-specs/prompts/project/3_项目结构.md)
 5.  开发规范 → [`.ai-specs/prompts/project/4_开发规范.md`](.ai-specs/prompts/project/4_开发规范.md)
-6.  UI 规范 → [`.ai-specs/prompts/project/5_UI设计规范.md`](.ai-specs/prompts/project/5_UI设计规范.md)
-7.  初始化计划 → [`.ai-specs/prompts/project/6_初始化计划.md`](.ai-specs/prompts/project/6_初始化计划.md)
-8.  开发路线图 → [`.ai-specs/prompts/project/7_开发路线图.md`](.ai-specs/prompts/project/7_开发路线图.md)
+6.  初始化计划 → [`.ai-specs/prompts/project/5_初始化计划.md`](.ai-specs/prompts/project/5_初始化计划.md)
+7.  开发路线图 → [`.ai-specs/prompts/project/6_开发路线图.md`](.ai-specs/prompts/project/6_开发路线图.md)
 
 ## 文档位置 (Document Locations)
 
