@@ -83,6 +83,7 @@ description: "UI原型工场。基于需求直接生成多套独立的 HTML 原�
     *   将 5 个版本的 HTML 文件输出到 `docs/{功能名称}/prototypes/` 目录下。
 5.  **交付与归档**:
     *   提示用户：“已生成 v1~v5。请选择最满意的版本，**将其重命名并移动**到 `docs/product_prototypes/` 目录下（例如 `login.html`）。如果是首个页面，请命名为 `design_master.html`。”
+    *   **下一步提示词**: 提供后续步骤的启动指令，例如：`@feature-requirements-clarification "开发[功能名]"`。
 
 ## 交互示例
 > User: "帮我设计登录页"

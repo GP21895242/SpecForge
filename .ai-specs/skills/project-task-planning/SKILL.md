@@ -49,6 +49,7 @@ description: "项目初始化任务规划。将项目级文档（技术栈、结
 - [ ] **Init-01**: Git 仓库初始化
     *   执行: `git init`
     *   配置: 创建 `.gitignore` (Node/Go/Python 通用配置)
+    *   **提示词**: "初始化 git 仓库并创建适合 [语言] 的 .gitignore"
 - [ ] **Init-02**: 依赖管理初始化
     *   执行: `npm init -y` / `go mod init`
     *   验证: `package.json` / `go.mod` 创建成功
@@ -59,6 +60,7 @@ description: "项目初始化任务规划。将项目级文档（技术栈、结
     *   创建: `README.md`, `.env.example`
 - [ ] **Struct-02**: 创建源码目录
     *   创建: `src/`, `src/modules/`, `src/shared/` 等
+    *   **提示词**: "根据 specs/3_项目结构.md 创建项目目录结构"
 - [ ] **Struct-03**: 创建文档目录
     *   创建: `docs/`, `specs/`
 
@@ -66,6 +68,7 @@ description: "项目初始化任务规划。将项目级文档（技术栈、结
 > 参考 `specs/2_技术栈.md`
 - [ ] **Dep-01**: 生产环境依赖
     *   安装: [列出核心库，如 react, express, gin]
+    *   **提示词**: "安装核心依赖: [依赖列表]"
 - [ ] **Dep-02**: 开发环境依赖
     *   安装: [列出工具库，如 typescript, nodemon]
 
