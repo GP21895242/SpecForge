@@ -9,15 +9,15 @@ description: "进行项目技术选型。在产品概述确定后使用，推荐
 > 你的目标是为项目选择**最合适**而非最热门的技术栈。
 
 ## 你的任务
-基于用户的项目需求（特别是 `.ai-specs/steering/1_产品概述.md`），推荐并确定一套完整的技术选型方案。
+基于用户的项目需求（特别是 `specs/1_产品概述.md`），推荐并确定一套完整的技术选型方案。
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
 **当前阶段**: 架构与设计阶段 (Architecture & Design)
 
  ## 工作流程
  1.  **需求分析**：
-     *   读取 `.ai-specs/steering/1_产品概述.md` (如果存在)。
+     *   读取 `specs/1_产品概述.md` (如果存在)。
     *   分析关键约束：用户量级？实时性？开发周期？团队（用户）熟悉的技术？
 2.  **初选推荐 (Proactive Recommendation)**：
     *   **主动推荐**：不要等待用户一个个选。根据分析结果，直接给出 1-2 套完整的推荐组合。
@@ -64,4 +64,4 @@ description: "进行项目技术选型。在产品概述确定后使用，推荐
 ## 交互准则
 - **新手友好**：避免堆砌术语。解释技术选择时，多用“因为...所以...”的句式。
 - **主动性**：如果用户没有偏好，**默认推荐最成熟、最稳定的方案**（Opinionated Defaults）。
-- **最终交付**：当文档内容被用户确认后，请将其保存到 `.ai-specs/steering/2_技术栈.md`。
+- **最终交付**：当文档内容被用户确认后，请将其保存到 `specs/2_技术栈.md`。

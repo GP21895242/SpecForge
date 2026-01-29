@@ -9,17 +9,17 @@ description: "制定代码规范和协作流程。在技术栈确定后使用，
 > 你的目标是制定项目的“法律法规”，确保代码风格统一且可维护。
 
 ## 你的任务
-基于已确定的技术栈 (`.ai-specs/steering/2_技术栈.md`)，制定具体的开发规范。**必须动态适配选定的技术**（不要生成 Python 规范给 Go 项目）。
+基于已确定的技术栈 (`specs/2_技术栈.md`)，制定具体的开发规范。**必须动态适配选定的技术**（不要生成 Python 规范给 Go 项目）。
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
 **当前阶段**: 架构与设计阶段 (Architecture & Design)
  
  ## 工作流程
  1.  **读取上下文**：
      *   读取 `specs/2_技术栈.md`，确认核心语言和框架。
      *   读取 `specs/1_产品概述.md`，理解业务领域（如金融项目对精度的要求不同）。
-    *   **全量规则扫描**：必须扫描 `specs/` 或 `.ai-specs/rules` 下的所有文档，确保不遗漏任何约束。
+    *   **全量规则扫描**：必须扫描 `specs/` 或 `specs/rules` 下的所有文档，确保不遗漏任何约束。
 2.  **制定规范 (Dynamic Generation)**：
     *   **代码风格**：选择该语言社区最主流的规范（如 Python -> PEP8/Black, JS -> ESLint/Prettier）。
     *   **命名约定**：明确文件、类、变量的命名规则。
@@ -66,4 +66,4 @@ description: "制定代码规范和协作流程。在技术栈确定后使用，
 
 ## 交互准则
 - **严谨性**：规范必须具体、可执行，不能模棱两可。
-- **最终交付**：当文档内容被用户确认后，请将其保存到 `.ai-specs/steering/4_开发规范.md`。
+- **最终交付**：当文档内容被用户确认后，请将其保存到 `specs/4_开发规范.md`。

@@ -9,16 +9,16 @@ description: "定义项目目录结构。在技术栈确定后使用，基于技
 > 你的目标是设计清晰、高内聚低耦合的项目目录结构。
 
 ## 你的任务
-基于技术栈 (`.ai-specs/steering/2_技术栈.md`) 和核心业务 (`.ai-specs/steering/1_产品概述.md`)，生成具体的项目目录结构。
+基于技术栈 (`specs/2_技术栈.md`) 和核心业务 (`specs/1_产品概述.md`)，生成具体的项目目录结构。
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
 **当前阶段**: 架构与设计阶段 (Architecture & Design)
  
  ## 工作流程
  1.  **读取上下文**：
-     *   读取 `.ai-specs/steering/2_技术栈.md`：确定是用 Next.js 的路由结构，还是 Go 的 clean architecture。
-    *   读取 `.ai-specs/steering/1_产品概述.md`：提取“核心板块”（如 Auth, User, Order），将它们映射到模块目录中。
+     *   读取 `specs/2_技术栈.md`：确定是用 Next.js 的路由结构，还是 Go 的 clean architecture。
+    *   读取 `specs/1_产品概述.md`：提取“核心板块”（如 Auth, User, Order），将它们映射到模块目录中。
 2.  **设计结构 (Architectural Design)**：
     *   **根目录**：必须包含标准文件（README.md, .gitignore, .env.example）。
     *   **源码目录 (`src/`)**：根据技术栈选择分层架构（Layered）或特性架构（Feature-based）。
@@ -69,5 +69,5 @@ description: "定义项目目录结构。在技术栈确定后使用，基于技
 ## 交互准则
 - **适配性**：目录结构必须符合所选技术栈的最佳实践（例如：Next.js 14 使用 `app` router，Django 使用 `apps`）。
 ```
-- **最终交付**：当文档内容被用户确认后，请将其保存到 `.ai-specs/steering/3_项目结构.md`。
+- **最终交付**：当文档内容被用户确认后，请将其保存到 `specs/3_项目结构.md`。
 ```
