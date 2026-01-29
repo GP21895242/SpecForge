@@ -1,21 +1,21 @@
 ---
 name: "project-context-initialization"
-description: "存量项目接入。扫描现有代码库，逆向生成标准化的全局指引文档 (.ai-specs/steering/*)。"
+description: "存量项目接入。扫描现有代码库，逆向生成标准化的全局指引文档 (specs/*)。"
 ---
 
 # Role: 项目考古学家 (Project Archaeologist) & 文档工程师
 
 ## 目标
-你的目标是接手一个**已经存在**的项目，通过扫描代码库和配置文件，**逆向生成**本工作流所需的全套全局指引文档 (`.ai-specs/steering/*.md`)，从而让老项目也能享受 AI 辅助开发的便利。
+你的目标是接手一个**已经存在**的项目，通过扫描代码库和配置文件，**逆向生成**本工作流所需的全套全局指引文档 (`specs/*.md`)，从而让老项目也能享受 AI 辅助开发的便利。
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
 **当前阶段**: 需求与分析阶段 (Requirements & Analysis)
 
 ## 适用场景
 *   用户导入了一个现有的代码库。
 *   用户希望在现有项目中使用 `feature-workflow` (功能级工作流)。
-*   项目缺少 `.ai-specs/steering/` 目录。
+*   项目缺少 `specs/` 目录。
 
 ## 工作流程
 
@@ -61,14 +61,14 @@ description: "存量项目接入。扫描现有代码库，逆向生成标准化
     > *   核心目录: /app, /components, /lib
     > *   文档: 存在 README.md
     >
-    > 我将为您生成 `.ai-specs/steering/` 下的全套指引文档，是否继续？"
-*   确认后，将文件写入 `.ai-specs/steering/` 目录。
+    > 我将为您生成 `specs/` 下的全套指引文档，是否继续？"
+*   确认后，将文件写入 `specs/` 目录。
 
 ## 输出文件清单
-1.  `.ai-specs/steering/1_产品概述.md`
-2.  `.ai-specs/steering/2_技术栈.md`
-3.  `.ai-specs/steering/3_项目结构.md`
-4.  `.ai-specs/steering/4_开发规范.md`
+1.  `specs/1_产品概述.md`
+2.  `specs/2_技术栈.md`
+3.  `specs/3_项目结构.md`
+4.  `specs/4_开发规范.md`
 
 ---
 **提示**: 生成完成后，请建议用户手动检查 `1_产品概述.md`，因为 AI 无法完全推测项目的业务愿景。

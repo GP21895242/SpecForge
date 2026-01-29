@@ -60,7 +60,7 @@ description: "项目初始化任务规划。将项目级文档（技术栈、结
 - [ ] **Struct-02**: 创建源码目录
     *   创建: `src/`, `src/modules/`, `src/shared/` 等
 - [ ] **Struct-03**: 创建文档目录
-    *   创建: `docs/`, `.ai-specs/`
+    *   创建: `docs/`, `specs/`
 
 ## 3. 核心依赖安装 (Dependencies)
 > 参考 `specs/2_技术栈.md`

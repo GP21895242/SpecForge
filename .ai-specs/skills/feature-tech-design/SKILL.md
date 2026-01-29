@@ -13,11 +13,11 @@ description: "设计功能的技术实现方案。在功能需求明确后使用
 
 ## 输入
 *   `docs/{功能名称}/1_需求文档.md` (功能需求文档)
-*   `docs/{功能名称}/1.5_UI设计.md` (UI设计方案，可选)
-*   现有的项目技术栈规则 (参考 `.ai-specs/steering/2_技术栈.md` 和 `.ai-specs/steering/3_项目结构.md`)
+*   `docs/{功能名称}/prototypes/*.html` (UI 原型，可选)
+*   现有的项目技术栈规则 (参考 `specs/2_技术栈.md` 和 `specs/3_项目结构.md`)
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
 **当前阶段**: 架构与设计阶段 (Architecture & Design)
 
 ## 工作流程

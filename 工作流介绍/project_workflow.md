@@ -4,15 +4,15 @@
 
 想要启动一个新项目？请按顺序执行以下指令：
 
-| 步骤 | 阶段 | 你的指令 (Trigger) | 产出文档 (在 `.ai-specs/steering/`) |
+| 步骤 | 阶段 | 你的指令 (Trigger) | 产出文档 (在 `specs/`) |
 | :--- | :--- | :--- | :--- |
 | **01** | **需求挖掘** | `project-requirements-clarification` | (对话中澄清需求) |
-| **02** | **项目定义** | `project-product-overview` | `1_产品概述.md` |
-| **03** | **技术选型** | `project-tech-stack` | `2_技术栈.md` |
-| **04** | **架构设计** | `project-structure` | `3_项目结构.md` |
-| **05** | **规范制定** | `project-dev-standards` | `4_开发规范.md` |
-| **06** | **初始化计划** | `project-task-planning` | `5_初始化计划.md` |
-| **07** | **路线规划** | `project-roadmap-planning` | `6_开发路线图.md` |
+| **02** | **项目定义** | `project-product-overview` | `specs/1_产品概述.md` |
+| **03** | **技术选型** | `project-tech-stack` | `specs/2_技术栈.md` |
+| **04** | **架构设计** | `project-structure` | `specs/3_项目结构.md` |
+| **05** | **规范制定** | `project-dev-standards` | `specs/4_开发规范.md` |
+| **06** | **初始化计划** | `project-task-planning` | `specs/5_初始化计划.md` |
+| **07** | **路线规划** | `project-roadmap-planning` | `specs/6_开发路线图.md` |
 
 > **提示**: 完成上述所有步骤后，你将获得一个完整的项目蓝图。接下来请执行 `5_初始化计划.md` 中的任务，然后按照 `6_开发路线图.md` 开始功能开发。
 

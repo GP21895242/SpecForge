@@ -14,7 +14,7 @@ description: "更新项目文档以匹配代码库的实际情况。当实现与
 - 在完成重大功能实现后，如果该功能改变了项目结构或引入了新技术。
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
 **当前阶段**: 规划与管理阶段 (Planning & Management)
 
 ## 工作流程
@@ -22,10 +22,10 @@ description: "更新项目文档以匹配代码库的实际情况。当实现与
 1.  **分析上下文 (Analyze Context)**：
     *   阅读当前代码库，理解**实际**状态（技术栈、项目结构、关键功能）。
     *   阅读现有的文档文件：
-        *   `.ai-specs/steering/1_产品概述.md` (产品概述)
-        *   `.ai-specs/steering/2_技术栈.md` (技术栈)
-        *   `.ai-specs/steering/3_项目结构.md` (项目结构)
-        *   `.ai-specs/steering/*.md` (任何生效的规则)
+        *   `specs/1_产品概述.md` (产品概述)
+        *   `specs/2_技术栈.md` (技术栈)
+        *   `specs/3_项目结构.md` (项目结构)
+        *   `specs/*.md` (任何生效的规则)
 
 2.  **识别偏差 (Identify Deviations)**：
     *   对比**实际代码**与**文档规范**。

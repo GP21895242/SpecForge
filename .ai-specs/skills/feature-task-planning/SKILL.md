@@ -16,7 +16,7 @@ description: "功能任务规划。将技术方案拆解为细粒度、可执行
 *   `docs/{功能名称}/1_需求文档.md` (功能需求文档 - 用于验收标准对照)
 
 ## 边界守卫 (Guardrails) - CRITICAL
-请严格遵守通用边界守卫规则：[.ai-specs/steering/GUARDRAILS.md](.ai-specs/steering/GUARDRAILS.md)
+请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
 **当前阶段**: 规划与管理阶段 (Planning & Management)
 
 ## 工作流程
