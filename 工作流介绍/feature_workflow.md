@@ -8,7 +8,7 @@
 | :--- | :--- | :--- | :--- |
 | **01** | **需求澄清** | `feature-requirements-clarification` | `1_需求文档.md` |
 | **02** | **UI 设计** | `feature-ui-design` | `1.5_UI设计.md` |
-| **03** | **UI 实现 (可选)** | `feature-ui-implementation` | (更新 UI 设计文档) |
+| **03** | **UI 原型 (可选)** | `feature-ui-prototype` | (生成 HTML/组件代码) |
 | **04** | **技术方案** | `feature-tech-design` | `2_技术方案.md` |
 | **05** | **任务规划** | `feature-task-planning` | `3_任务规划.md` |
 | **06** | **编码实现** | (IDE 自动辅助) | (源代码) |
@@ -28,19 +28,13 @@
     2.  AI 会通过苏格拉底式提问，挖掘用户故事、验收标准和异常场景。
 *   **产出**: `docs/{功能名}/1_需求文档.md`
 
-### 阶段二：UI 设计 (UI Design)
-*   **目标**: 在写代码前解决“长什么样”。
-*   **如何触发**: 呼叫 `feature-ui-design`
-*   **交互**: AI 使用 Mermaid 绘制线框图，并描述布局与交互。
-*   **产出**: `docs/{功能名}/1.5_UI设计.md`
+### 阶段二：UI 原型开发 (UI Prototyping)
+*   **目标**: 使用前端代码构建高保真交互原型，解决“长什么样”的问题。
+*   **如何触发**: 呼叫 `feature-ui-prototype`
+*   **交互**: AI 根据需求文档，直接编写 HTML/CSS (Tailwind) 代码。一次生成多个方案供选择。
+*   **产出**: `docs/{功能名}/prototypes/` 下的多个 `.html` 文件。
 
-### 阶段三：UI 实现 (UI Implementation - Optional)
-*   **目标**: 生成高保真设计图或代码。
-*   **如何触发**: 呼叫 `feature-ui-implementation`
-*   **交互**: AI 调用 Pencil MCP 工具，根据上一阶段的设计文档生成可视化产物。
-*   **产出**: 更新 `1.5_UI设计.md`。
-
-### 阶段四：技术方案设计 (Technical Design)
+### 阶段三：技术方案设计 (Technical Design)
 *   **目标**: 在写代码前解决“怎么做”。
 *   **如何触发**: 呼叫 `feature-tech-design`
 *   **前提**: 必须先完成阶段一，且项目级文档（技术栈、结构）已存在。
@@ -53,7 +47,7 @@
 *   **交互**: AI 会将技术方案拆解为一个个 < 4小时 的原子任务（如“创建 User 表”、“实现注册接口”）。
 *   **产出**: `docs/{功能名}/3_任务规划.md`
 
-### 阶段四：编码与实现 (Implementation)
+### 阶段五：编码与实现 (Implementation)
 *   **目标**: 高质量代码落地。
 *   **动作**:
     1.  打开 `3_任务规划.md`。
@@ -61,7 +55,7 @@
     3.  利用 IDE 的 AI 助手生成代码，或手动编写。
     4.  **时刻遵守**: `.ai-specs/steering/4_开发规范.md`。
 
-### 阶段七：验证与交付 (Verification & Delivery)
+### 阶段六：验证与交付 (Verification & Delivery)
 *   **目标**: 确保功能无 Bug 且符合需求。
 *   **动作**:
     1.  编写并运行单元测试。

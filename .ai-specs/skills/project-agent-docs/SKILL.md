@@ -47,10 +47,9 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 
 ### 功能开发（按顺序执行）
 1.  需求澄清 → [`.ai-specs/prompts/feature/1_需求澄清.md`](.ai-specs/prompts/feature/1_需求澄清.md)
-2.  UI 设计 → [`.ai-specs/prompts/feature/1.5_UI设计.md`](.ai-specs/prompts/feature/1.5_UI设计.md)
-3.  UI 实现 → [`.ai-specs/prompts/feature/1.6_UI实现.md`](.ai-specs/prompts/feature/1.6_UI实现.md)
-4.  技术方案 → [`.ai-specs/prompts/feature/2_技术方案.md`](.ai-specs/prompts/feature/2_技术方案.md)
-5.  任务规划 → [`.ai-specs/prompts/feature/3_任务规划.md`](.ai-specs/prompts/feature/3_任务规划.md)
+2.  UI 原型 → [`.ai-specs/prompts/feature/1.6_UI原型.md`](.ai-specs/prompts/feature/1.6_UI原型.md)
+3.  技术方案 → [`.ai-specs/prompts/feature/2_技术方案.md`](.ai-specs/prompts/feature/2_技术方案.md)
+4.  任务规划 → [`.ai-specs/prompts/feature/3_任务规划.md`](.ai-specs/prompts/feature/3_任务规划.md)
 
 ### 项目初始化（仅在项目开始时）
 1.  需求挖掘 → [`.ai-specs/prompts/project/0_需求澄清.md`](.ai-specs/prompts/project/0_需求澄清.md)
