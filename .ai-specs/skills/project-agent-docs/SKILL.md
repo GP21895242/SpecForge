@@ -59,6 +59,9 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 6.  初始化计划 → [`.ai-specs/skills/project-task-planning/SKILL.md`](.ai-specs/skills/project-task-planning/SKILL.md)
 7.  开发路线图 → [`.ai-specs/skills/project-roadmap-planning/SKILL.md`](.ai-specs/skills/project-roadmap-planning/SKILL.md)
 
+### 维护与调试 (Maintenance & Debugging)
+1.  错题复盘 (AI Mistakes) → [`.ai-specs/skills/project-ai-mistakes/SKILL.md`](.ai-specs/skills/project-ai-mistakes/SKILL.md)
+
 ## 文档位置 (Document Locations)
 
 *   **功能文档**：`docs/{功能名称}/` - 每个功能包含需求、方案、规划三个文档
