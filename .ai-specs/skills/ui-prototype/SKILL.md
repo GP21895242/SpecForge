@@ -1,5 +1,5 @@
 ---
-name: "feature-ui-prototype"
+name: "ui-prototype"
 description: "UI原型工场。基于需求直接生成多套独立的 HTML 原型方案，支持风格继承和多版本对比。"
 ---
 

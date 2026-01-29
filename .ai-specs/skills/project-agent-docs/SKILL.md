@@ -47,7 +47,7 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 
 ### 功能开发（按顺序执行）
 1.  需求澄清 → [`.ai-specs/prompts/feature/1_需求澄清.md`](.ai-specs/prompts/feature/1_需求澄清.md)
-2.  UI 原型 → [`.ai-specs/prompts/feature/1.6_UI原型.md`](.ai-specs/prompts/feature/1.6_UI原型.md)
+2.  UI 原型 → [.ai-specs/prompts/feature/1.6_UI原型.md](.ai-specs/prompts/feature/1.6_UI原型.md)
 3.  技术方案 → [`.ai-specs/prompts/feature/2_技术方案.md`](.ai-specs/prompts/feature/2_技术方案.md)
 4.  任务规划 → [`.ai-specs/prompts/feature/3_任务规划.md`](.ai-specs/prompts/feature/3_任务规划.md)
 
@@ -65,7 +65,7 @@ description: "生成项目导航文档。基于项目核心文档生成 AGENT.md
 
 *   **功能文档**：`docs/{功能名称}/` - 每个功能包含需求、方案、规划三个文档
 *   **项目规范**：`.ai-specs/steering/` - 项目级规范，全局适用
-*   **Prompt 文档**：`.ai-specs/prompts/` - 工作流指导
+*   **Skill 调用**：直接使用上述表格中的指令（如 `ui-prototype`）来触发 AI 能力，而不是手动查找文档。
 
 ## 核心规则 (Core Rules)
 

@@ -7,12 +7,11 @@
 | 步骤 | 阶段 | 你的指令 (Trigger) | 产出文档 (在 `docs/{功能名}/`) |
 | :--- | :--- | :--- | :--- |
 | **01** | **需求澄清** | `feature-requirements-clarification` | `1_需求文档.md` |
-| **02** | **UI 设计** | `feature-ui-design` | `1.5_UI设计.md` |
-| **03** | **UI 原型 (可选)** | `feature-ui-prototype` | (生成 HTML/组件代码) |
-| **04** | **技术方案** | `feature-tech-design` | `2_技术方案.md` |
-| **05** | **任务规划** | `feature-task-planning` | `3_任务规划.md` |
-| **06** | **编码实现** | (IDE 自动辅助) | (源代码) |
-| **07** | **验证交付** | (运行测试命令) | (测试报告) |
+| **02** | **UI 原型** | `feature-ui-prototype` | `prototypes/*.html` |
+| **03** | **技术方案** | `feature-tech-design` | `2_技术方案.md` |
+| **04** | **任务规划** | `feature-task-planning` | `3_任务规划.md` |
+| **05** | **编码实现** | (IDE 自动辅助) | (源代码) |
+| **06** | **验证交付** | (运行测试命令) | (测试报告) |
 
 > **提示**: 每个功能都应有一个独立的文件夹（如 `docs/auth/`），并包含上述 3 个核心文档。
 
@@ -30,7 +29,7 @@
 
 ### 阶段二：UI 原型开发 (UI Prototyping)
 *   **目标**: 使用前端代码构建高保真交互原型，解决“长什么样”的问题。
-*   **如何触发**: 呼叫 `feature-ui-prototype`
+*   **如何触发**: 呼叫 `ui-prototype`
 *   **交互**: AI 根据需求文档，直接编写 HTML/CSS (Tailwind) 代码。一次生成多个方案供选择。
 *   **产出**: `docs/{功能名}/prototypes/` 下的多个 `.html` 文件。
 
