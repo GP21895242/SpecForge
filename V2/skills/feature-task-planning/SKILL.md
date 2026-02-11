@@ -18,9 +18,6 @@ description: "功能任务规划。将技术方案拆解为细粒度、可执行
 ## 输入
 *   `specs/features/{功能名称}_技术方案.md` (技术设计文档)
 *   `specs/features/{功能名称}.md` (功能需求文档 - 用于验收标准对照)
-*   **项目上下文 (Project Context)**：
-    *   *注意*：AI 在新窗口中对当前项目一无所知。
-    *   **必须主动建立认知**：通过读取 `specs/` 目录下的文档 和 **整个项目**，全面了解项目背景。
 
 ## 边界守卫 (Guardrails) - CRITICAL
 请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)

@@ -17,9 +17,6 @@ description: "设计功能的技术实现方案。在功能需求明确后使用
 
 ## 输入
 *   `specs/features/{功能名称}.md` (功能需求文档)
-*   **项目上下文 (Project Context)**：
-    *   *注意*：AI 在新窗口中对当前项目一无所知。
-    *   **必须主动建立认知**：通过读取 `specs/` 目录下的文档 和 **整个项目**，全面了解项目背景。
 
 ## 边界守卫 (Guardrails) - CRITICAL
 请严格遵守通用边界守卫规则：[specs/GUARDRAILS.md](specs/GUARDRAILS.md)
