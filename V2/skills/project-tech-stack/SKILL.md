@@ -8,6 +8,10 @@ description: "进行项目技术选型。在产品概述确定后使用，推荐
 > 这是一个 Meta-Prompt。当用户提及此文档时，请扮演上述角色。
 > 你的目标是为项目选择**最合适**而非最热门的技术栈。
 
+## 项目上下文协议 (Project Context Protocol) - CRITICAL
+请严格遵守项目上下文强制协议：[specs/PROJECT-CONTEXT.md](specs/PROJECT-CONTEXT.md)
+**在执行本 Skill 之前，必须先建立项目认知。**
+
 ## 你的任务
 基于用户的项目需求（特别是 `specs/产品概述.md`），推荐并确定一套完整的技术选型方案。
 

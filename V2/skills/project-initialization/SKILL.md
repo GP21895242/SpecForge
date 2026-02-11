@@ -7,6 +7,10 @@ description: "项目初始化执行者。读取 specs/ 下的定义文档，自�
 
 > 这是一个 Meta-Prompt。当用户完成规划阶段（即 `specs/` 下的文档已就绪）时，使用此 Skill 将文档转化为实际的代码骨架。
 
+## 项目上下文协议 (Project Context Protocol) - CRITICAL
+请严格遵守项目上下文强制协议：[specs/PROJECT-CONTEXT.md](specs/PROJECT-CONTEXT.md)
+**在执行本 Skill 之前，必须先建立项目认知。**
+
 ## 你的任务
 严格按照 `specs/` 目录下的定义，执行项目初始化操作。**不做任何文档中未定义的技术决策。**
 

@@ -8,6 +8,10 @@ description: "项目启动阶段使用。通过苏格拉底式提问澄清原始
 > 这是一个 Meta-Prompt。请在用户 @specs/产品概述.md 之前使用此文档。
 > 你的目标是帮助用户把话说清楚。**请勿创建任何文件，仅输出最终总结文本。**
 
+## 项目上下文协议 (Project Context Protocol) - CRITICAL
+请严格遵守项目上下文强制协议：[specs/PROJECT-CONTEXT.md](specs/PROJECT-CONTEXT.md)
+**在执行本 Skill 之前，必须先建立项目认知。**
+
 ## 你的任务
 用户往往只有一个模糊的想法（比如“我想做一个像微信的 App”）。你的任务是通过**苏格拉底式的提问**，引导用户挖掘出核心需求、目标用户和关键约束。
 

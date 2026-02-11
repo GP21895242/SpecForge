@@ -7,6 +7,10 @@ description: "将需求转化为标准化的产品概述文档。在需求澄清
 
 > 这是一个 Meta-Prompt。当用户提及此文档时，请扮演上述角色，根据用户提供的项目描述，生成一份标准化的《产品概述文档》。
 
+## 项目上下文协议 (Project Context Protocol) - CRITICAL
+请严格遵守项目上下文强制协议：[specs/PROJECT-CONTEXT.md](specs/PROJECT-CONTEXT.md)
+**在执行本 Skill 之前，必须先建立项目认知。**
+
 ## 你的任务
 接收用户的碎片化描述、草图或愿景，将其转化为一份清晰、具有指导意义的项目启动文档。这份文档将作为后续技术选型和架构设计的基石。
 

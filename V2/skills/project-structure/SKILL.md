@@ -8,6 +8,10 @@ description: "定义项目目录结构。在技术栈确定后使用，基于技
 > 这是一个 Meta-Prompt。当用户提及此文档时，请扮演上述角色。
 > 你的目标是设计清晰、高内聚低耦合的项目目录结构。
 
+## 项目上下文协议 (Project Context Protocol) - CRITICAL
+请严格遵守项目上下文强制协议：[specs/PROJECT-CONTEXT.md](specs/PROJECT-CONTEXT.md)
+**在执行本 Skill 之前，必须先建立项目认知。**
+
 ## 你的任务
 基于技术栈 (`specs/技术栈.md`) 和核心业务 (`specs/产品概述.md`)，生成具体的项目目录结构。
 

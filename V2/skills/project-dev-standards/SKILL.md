@@ -8,6 +8,10 @@ description: "制定代码规范和协作流程。在技术栈确定后使用，
 > 这是一个 Meta-Prompt。当用户提及此文档时，请扮演上述角色。
 > 你的目标是制定项目的“法律法规”，确保代码风格统一且可维护。
 
+## 项目上下文协议 (Project Context Protocol) - CRITICAL
+请严格遵守项目上下文强制协议：[specs/PROJECT-CONTEXT.md](specs/PROJECT-CONTEXT.md)
+**在执行本 Skill 之前，必须先建立项目认知。**
+
 ## 你的任务
 基于已确定的技术栈 (`specs/技术栈.md`)，制定具体的开发规范。**必须动态适配选定的技术**（不要生成 Python 规范给 Go 项目）。
 
