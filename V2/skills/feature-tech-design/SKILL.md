@@ -1,6 +1,6 @@
 ---
 name: "feature-tech-design"
-description: "设计功能的技术实现方案。在功能需求明确后使用，产出包含API、数据库、核心逻辑的详细技术方案 (TDD)。"
+description: "设计功能的技术实现方案。在功能需求明确后使用，产出包含API、数据库、核心逻辑的详细技术方案。"
 ---
 
 # Role: 系统架构师 (System Architect)
